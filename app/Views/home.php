@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIGBurger</title>
     <!-- favicon -->
-     <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
     <!-- bootstrap css -->
-     <link rel="stylesheet" href="<?= base_url('assets/bootstrap/bootstrap.min.css') ?>">
-     <!-- app.css -->
+    <link rel="stylesheet" href="<?= base_url('assets/bootstrap/bootstrap.min.css') ?>">
+    <!-- app.css -->
     <link rel="stylesheet" href="assets/css/app.css">
 </head>
+
 <body>
 
     <!-- nav -->
@@ -29,11 +31,26 @@
         </div>
     </nav>
 
-    <!-- conteúdo -->
-    <h1>Home</h1>
+    <!-- main -->
+    <section class="container-fluid bg-color-02">
+        <div class="row">
+            <div class="col text-center p-5">
+                <div class="mb-5">
+                    <img class="img-fluid" src="<?= base_url('assets/images/main_burger_01.png') ?>" alt="The best in the world!">
+                </div>
+                <div class="text-center">
+                    <h3 class="mb-5">Deliciosos e com grandes descontos</h3>
+                    <a class="btn-products" href="<?= site_url('products') ?>">Produtos</a>
+                </div>
+            </div>
+            <div class="col text-center p-5">
+                <img class="img-fluid" src="<?= base_url('assets/images/main_burger_02.png') ?>" alt="The best in the world!">
+            </div>
+        </div>
+    </section>
 
     <!-- social networks -->
-     <footer class="container-fluid mt-5">
+    <footer class="container-fluid mt-5">
         <div class="row justify-content-center">
             <div class="col-6 d-flex flex-row justify-content-center">
                 <div class="text-center mx-4">
@@ -47,7 +64,7 @@
                 </div>
             </div>
         </div>
-     </footer>
+    </footer>
 
     <div class="row mt-4">
         <div class="col text-center">
@@ -56,6 +73,7 @@
     </div>
 
     <!-- bootstrap js -->
-     <script src="<?= base_url('assets/bootstrap/bootstrap.bundle.min.js') ?>"></script>
+    <script src="<?= base_url('assets/bootstrap/bootstrap.bundle.min.js') ?>"></script>
 </body>
+
 </html>
