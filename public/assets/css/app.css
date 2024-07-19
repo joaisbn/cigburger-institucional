@@ -38,3 +38,24 @@ body {
 .btn-products:hover {
     background: linear-gradient(to bottom, #FFF6C3, #FFC96C);
 }
+
+.product-box {
+    background-color: #2F2B24;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-text-color {
+    color: #FFC926;
+}
+
+.where-we-are-title {
+    color: #FFC926;
+    font-size: 3em;
+}
+
+.where-we-are-subtitle {
+    color: #FFC926;
+    font-size: 2em;
+}
